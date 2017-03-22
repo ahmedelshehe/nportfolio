@@ -11,8 +11,9 @@
                     <div class="card col-xs-4">
                         <h4 class="card-title"> {{this.description}}</h4>
                         <a href={{this.url}} class="btn btn-primary card-link">Visit Website</a>
+                        
                         <a >
-                             <img src="../uploads/{{this.img}}" border="0" alt="{{this.description}}" src="logo_w3s.gif" width="100" height="100">
+                             <img  id='{{this.img.id}}'border="0" alt="{{this.description}}" src="image/:{{id}}" width="100" height="100">
                         </a>
                     </div>
   {{/each}}
